@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Image Gallery</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 2rem;
+    }
+    .gallery {
+      display: flex;
+      gap: 2rem;
+      justify-content: space-around;
+    }
+    section {
+      text-align: center;
+    }
+    img {
+      width: 200px;
+      height: auto;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    a {
+      display: block;
+      margin-top: 0.5rem;
+      color: #007BFF;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Simple Image Gallery</h1>
+  <div class="gallery">
+
+    <section>
+      <img src="https://via.placeholder.com/200x150?text=Mountain" alt="Mountain Landscape">
+      <a href="https://en.wikipedia.org/wiki/Mountain" target="_blank">Learn more about Mountains</a>
+    </section>
+
+    <section>
+      <img src="https://via.placeholder.com/200x150?text=Beach" alt="Sunny Beach">
+      <a href="https://en.wikipedia.org/wiki/Beach" target="_blank">Learn more about Beaches</a>
+    </section>
+
+    <section>
+      <img src="https://via.placeholder.com/200x150?text=Forest" alt="Green Forest">
+      <a href="https://en.wikipedia.org/wiki/Forest" target="_blank">Learn more about Forests</a>
+    </section>
+
+  </div>
+
+</body>
+</html>
